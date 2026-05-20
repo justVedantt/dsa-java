@@ -21,6 +21,7 @@ public class takeInput {
 
         Scanner sc = new Scanner(System.in);
         float rad = sc.nextFloat();
-        double area = Math.PI 
+        float area = 3.14f * rad * rad;
+        System.out.println(area);
     }
 }
