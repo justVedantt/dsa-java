@@ -8,7 +8,7 @@ public class ques {
     Question3: Enter cost of 3 items from the user(using float datatype)- a pencil, a pen and an eraser. 
     You have to output the total cost of the items back to the user as their bill.
     (Add on : You can also try adding 18% gst tax to the items in the bill as an advanced problem)
-    Question 4:What will be the type of result in thefollowing Java code?
+    Question 4:What will be the type of result in the following Java code?
     (Hint : Look at the largest data type among these)
     Question 5:(Advanced)Will the following statementgive any error in Java?
     int$=24;
@@ -28,7 +28,15 @@ public class ques {
         System.out.println(area);
 
         // ques 3
-        
+        float pencil = sc.nextFloat();
+        float pen = sc.nextFloat();
+        float eraser = sc.nextFloat();
+        float totalCost = pencil + pen + eraser;
+        System.out.println(totalCost);
+
+        // ques 5
+        int $ = 24; // this will give an error because $ is not a valid character for variable names in Java
+
     }
     
 }
