@@ -1,4 +1,4 @@
-public class JavaBasics {
+public class javaBasics {
     public static void main(String[] args){
         System.out.print("Everything is Written by God");
     }

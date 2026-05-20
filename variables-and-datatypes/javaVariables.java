@@ -5,6 +5,6 @@ public class javaVariables {
         System.out.println(a);
         System.out.println(b);
         String name = "Vedant";
-        System.out.println("")
+        System.out.println(name);
     }
 }
