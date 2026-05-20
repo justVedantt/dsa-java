@@ -10,10 +10,17 @@ public class takeInput {
 
         // int num = sc.nextInt();
         // System.out.println(num);
+
+        // Scanner sc = new Scanner(System.in);
+        // int a = sc.nextInt();
+        // int b = sc.nextInt();
+        // int sum = a + b;
+        // int product = a * b;
+        // System.out.println(sum);
+        // System.out.println(product);
+
         Scanner sc = new Scanner(System.in);
-        int a = sc.nextInt();
-        int b = sc.nextInt();
-        int sum = a + b;
-        System.out.println(sum);
+        float rad = sc.nextFloat();
+        double area = Math.PI 
     }
 }
