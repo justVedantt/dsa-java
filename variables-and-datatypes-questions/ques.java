@@ -35,7 +35,7 @@ public class ques {
         System.out.println(totalCost);
 
         // ques 5
-        int $ = 24; // this will give an error because $ is not a valid character for variable names in Java
+        int $ = 24; // this will not give an error because $ is  a valid character for variable names in Java
 
     }
     
