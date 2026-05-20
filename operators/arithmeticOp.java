@@ -1,5 +1,4 @@
-public package operators;
-import java.util.*;
+package operators;
 public class arithmeticOp {
     public static void main(String[] args) {
      int a = 10;
