@@ -1,4 +1,5 @@
-
+public package operators;
+import java.util.*;
 public class arithmeticOp {
     public static void main(String[] args) {
      int a = 10;
@@ -7,6 +8,6 @@ public class arithmeticOp {
      System.out.println("sub" + (a-b));   
      System.out.println("mul" + (a*b));   
      System.out.println("div" + (a/b));   
-     System.out.println("mod" + ());   
+     System.out.println("mod" + (a%b));   
     }
 }
