@@ -1,5 +1,7 @@
 package conditional_statement_questions;
 
+import java.util.Scanner;
+
 public class ques {
     public static void main(String[] args){
 /*
@@ -51,6 +53,41 @@ public class Solution {
    }
 
    // Ques 2
-   
+    double temp = 103.5;
+    if(temp > 100){
+        System.out.println("You have a fever");
+    }else{
+        System.out.println("You don't have a fever");
+    }
+
+    // Ques 3
+    int day = 4;
+        switch(day){
+            case 1:
+                System.out.println("Mon");
+                break;
+            case 2:
+                System.out.println("Tue");
+                break;
+            case 3:
+                System.out.println("Wed");
+                break;
+            case 4:
+                System.out.println("Thu");
+                break;
+            case 5:
+                System.out.println("Fri");
+                break;
+            case 6:
+                System.out.println("Sat");
+                break;
+            case 7:
+                System.out.println("Sun");
+                break;
+            default:
+                System.out.println("Write valid day");
+
+        // Ques 4
+        
     }
 }
