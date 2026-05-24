@@ -50,6 +50,7 @@ public class Solution {
     System.out.println("Negative");
    }
 
+   // Ques 2
    
     }
 }
