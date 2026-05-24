@@ -87,7 +87,9 @@ public class Solution {
             default:
                 System.out.println("Write valid day");
 
-        // Ques 4
-        
+        // Ques 5
+        int year = sc.nextInt();
+        boolean isLeap = ((year % 4 == 0 && year % 100 != 0) || (year % 400 == 0)) ? true: false;
+
     }
 }
