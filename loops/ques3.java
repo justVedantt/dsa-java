@@ -1,6 +1,6 @@
 package loops;
 import java.util.*;
-
+// Print sum of first n natural numbers
 public class ques3 {
     public static void main(String[] args){
         Scanner sc = new Scanner(System.in);
