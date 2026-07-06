@@ -10,6 +10,8 @@ public class ArraysCC {
         marks[0] = sc.nextInt(); // phy
         marks[1] = sc.nextInt(); // che
         marks[2] = sc.nextInt(); // mat
-        
+        System.out.println("phy : " + marks[0]);
+        System.out.println("che : " + marks[1]);
+        System.out.println("mat : " + marks[2]);
     }
 }
